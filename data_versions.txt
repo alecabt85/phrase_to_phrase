@@ -1,0 +1,17 @@
+processed_data_v1: Data file in which the anchor tag and the target phrase have been 
+    encoded with "bert-base-uncased" model and the [CLS] vector, which is the first vector
+    of the output, has been taken as the word embedding.  The cpc demographic data columns
+    have been cateogorically encoded.  
+
+
+
+
+
+
+
+
+Ideas to Explore: 
+    - mapping the cpc group, subgroup, etc terms to their representations in the data
+    and then making a questions like "Does <target> belong in <section> <class> <subclass>
+    <group> <subgroup>?" and then taking a sentence transformation of that question as 
+    input data to a model
